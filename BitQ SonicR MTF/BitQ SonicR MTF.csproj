@@ -51,6 +51,12 @@
     <Compile Include="BitQ SonicR MTF.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\cAlgoBitQ\cAlgoBitQ\cAlgoBitQ.csproj">
+      <Project>{6600c2fe-4d44-4e6b-96c4-878aca5c6c4a}</Project>
+      <Name>cAlgoBitQ</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

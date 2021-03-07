@@ -1,7 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitQ SonicR MTF", "BitQ SonicR MTF\BitQ SonicR MTF.csproj", "{0EB0700A-72EC-4DC5-B073-EB8A92F977BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cAlgoBitQ", "..\..\..\..\cAlgoBitQ\cAlgoBitQ\cAlgoBitQ.csproj", "{6600C2FE-4D44-4E6B-96C4-878ACA5C6C4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +17,15 @@ Global
 		{0EB0700A-72EC-4DC5-B073-EB8A92F977BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EB0700A-72EC-4DC5-B073-EB8A92F977BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EB0700A-72EC-4DC5-B073-EB8A92F977BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6600C2FE-4D44-4E6B-96C4-878ACA5C6C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6600C2FE-4D44-4E6B-96C4-878ACA5C6C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6600C2FE-4D44-4E6B-96C4-878ACA5C6C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6600C2FE-4D44-4E6B-96C4-878ACA5C6C4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF12C997-7A0F-4821-8E19-76F53DB35799}
 	EndGlobalSection
 EndGlobal
